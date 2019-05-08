@@ -1,0 +1,74 @@
+.home{
+    background-color:#F3D250;
+}
+
+.about{
+    background-color:#90CCF4;
+}
+
+.skill{
+    background-color:#F78888;
+}
+
+.experience{
+    background-color:#5DA2D5;
+}
+
+.span-hello
+{
+    background-color: #0bceaf;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.role{
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+.list-group-item{
+    background: none !important;
+    border: none !important;
+    font-size: 18px;
+    margin-left: -15px;
+    line-height: 10px;
+}
+
+.social ul{
+    margin-left: -50px;
+}
+
+.social ul > li{
+    list-style-type: none;
+    display: inline-block; 
+    padding: 15px;
+    font-size: 25px;
+}
+
+.social li:hover{
+    background-color: #90CCF4;
+    border-radius: 3px;
+}
+
+.profile-image{
+    border: 20px solid;
+    border-color:  #0bceaf;
+    margin: 0 auto;
+    border-radius: 50%;
+}
