@@ -1,0 +1,9 @@
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 60%;
+  transform: translatex(-50%);
+}
+
+.nav-color {
+  background-color: #ECECEC;
+}
