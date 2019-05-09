@@ -17,7 +17,7 @@
 .span-hello
 {
     background-color: #0bceaf;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -71,4 +71,27 @@
     border-color:  #0bceaf;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+.about-me{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+
+.my-skill ul {
+    list-style-type: none;
+    display: inline-block;
+    
+    margin-top: 20px;
+}
+
+.my-skill ul>li{
+    line-height: 30px;
+}
+
+.my-skill ul>li>span{
+    font-weight: 500;
 }

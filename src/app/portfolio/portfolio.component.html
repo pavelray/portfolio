@@ -6,16 +6,16 @@
               <span class="span-hello">Hello I'm</span>
             </div>
             <div class="row">
-              <h2 class="title"> Pavel Ray </h2>
+              <h2 class="title"> {{name}}</h2>
             </div>
             <div class="row">
-              <h4 class="role">Software Engineer</h4>
+              <h4 class="role">{{role}}</h4>
             </div>
             <div class="row">
                 <ul class="list-group">
-                  <li class="list-group-item"> <i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:">pavelray@gmail.com</a></li>
-                  <li class="list-group-item"> <i class="fas fa-phone-square"></i>&nbsp;&nbsp;<a href="callto:">8660677881</a></li>
-                  <li class="list-group-item"> <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; <span>Bangalore, India</span></li>
+                  <li class="list-group-item"> <i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:">{{email}}</a></li>
+                  <li class="list-group-item"> <i class="fas fa-phone-square"></i>&nbsp;&nbsp;<a href="callto:">{{contact}}</a></li>
+                  <li class="list-group-item"> <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; <span>{{address}}</span></li>
                 </ul>
             </div>
             <div class="row social">
@@ -40,19 +40,39 @@
   <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h1>Hello</h1>
-            </div>
-            <div class="col-md-6">
-                <h1>Hello</h1>
-            </div>
+          <img src="../../assets/ab-img.png" class="img-fluid">
+        </div>
+        <div class="col-md-6" style="padding-left:10px">
+          <span class="span-hello">About Me</span>
+          <p class="about-me">{{aboutMe}}</p>
+          <button class="btn btn-outline-warning" style="color:black; font-weight:500;">Download CV</button>
+        </div>
     </div>
   </div>
 </div>
 
 <div class="row skill p-5" id="#skill">
-Skill
+  <div class="col-md-12 text-center">
+    <h2>My Skills</h2>
+    <div class="my-skill"> 
+      <ul *ngFor='let skill of skills'>
+        <li><span class="btn btn-outline-primary">{{skill}}</span></li>
+      </ul>
+    </div>
+    
+  </div>
 </div>
 
 <div class="row experience p-5" id="#experience">
-Experience
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-6">
+        <h2 >Education</h2>
+      </div>
+      <div class="col-md-6">
+        <h2>Work Experience</h2>
+      </div>
+    </div>
+  </div>
+
 </div>
