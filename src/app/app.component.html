@@ -1,26 +1,40 @@
-<nav class="navbar sticky-top navbar-expand-lg nav-color">
+<nav id="navbar-example" class="navbar sticky-top navbar-expand-md nav-color" >
   <a class="navbar-brand" href="#"><span><i class="fa fa-bullseye" aria-hidden="true"></i></span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav navbar-center">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#home">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#skill">Skill</a>
+        <a class="nav-link" href="#experience">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
-<div class="container-fluid" style="height:5000px">
+<div class="container-fluid">
   <app-portfolio></app-portfolio>
 </div>
+<footer class="footer" style="padding:10px;">
+  <div class="container">
+    <span class="text-muted">Developed Using</span>
+    <div class="powered-by">
+        <ul>
+          <li><i class="fab fa-bootstrap" style="color: blue"></i></li>
+          <li><i class="fab fa-angular" style="color: red"></i></li>
+          <li><i class="fab fa-html5" style="color:orangered"></i></li>
+        </ul>
+    </div>
+  </div>
+</footer>
 

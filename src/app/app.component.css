@@ -6,6 +6,38 @@
 
 .nav-color {
   background-color: #ECECEC;
+
+
 }
 
+.nav-color a{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.active {
+  border-bottom: 2px solid;
+  border-bottom-color: black;
+}
+
+.powered-by
+{
+  font-size: 35px !important;
+}
+
+.powered-by ul{
+  margin-left: -50px;
+}
+
+.powered-by ul>li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.text-muted{
+  color: darkred !important;
+  font-weight: 400 !important;
+}
 

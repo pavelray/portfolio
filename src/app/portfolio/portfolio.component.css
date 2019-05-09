@@ -1,4 +1,4 @@
-.home{
+.home {
     background-color:#F3D250;
 }
 
@@ -6,13 +6,25 @@
     background-color:#90CCF4;
 }
 
-.skill{
+.experience{
     background-color:#F78888;
 }
 
-.experience{
+.contact{
     background-color:#5DA2D5;
 }
+
+
+.btn-yellow{
+  color:black;
+  font-weight:500;
+  border-color: black
+}
+
+.btn-yellow:hover{
+  border:none;
+}
+
 
 .span-hello
 {
@@ -56,7 +68,7 @@
 
 .social ul > li{
     list-style-type: none;
-    display: inline-block; 
+    display: inline-block;
     padding: 15px;
     font-size: 25px;
 }
@@ -84,7 +96,7 @@
 .my-skill ul {
     list-style-type: none;
     display: inline-block;
-    
+
     margin-top: 20px;
 }
 
@@ -95,3 +107,23 @@
 .my-skill ul>li>span{
     font-weight: 500;
 }
+
+.contact input{
+  background: none;
+  border:1px solid black;
+}
+
+.contact textarea{
+  background: none;
+  border:1px solid black;
+}
+
+.section-separator{
+  padding: 100px 0;
+}
+
+.p-left-2{
+  padding-left: 50px;
+}
+
+
