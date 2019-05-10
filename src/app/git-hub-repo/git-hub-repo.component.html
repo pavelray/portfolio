@@ -1,0 +1,30 @@
+
+<div class="row text-center">
+    <div class="container" id="myBtnContainer">
+        <ul>
+            <li [ngClass]="{'active': selectedIndex == 1}" (click)="setSelected(1,'all')" > <a>All</a> </li>
+            <li data-filter=".TypeScript" [ngClass]="{'active': selectedIndex == 2}" (click)="setSelected(2,'TypeScript')" > <a>Angular</a>  </li>
+            <li data-filter=".Python" [ngClass]="{'active': selectedIndex == 3}" (click)="setSelected(3,'Python')" > <a>Python </a> </li>
+            <li data-filter=".C#" [ngClass]="{'active': selectedIndex == 4}" (click)="setSelected(4,'C#')"> <a>C# </a> </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class=" column col-md-4 p-3 {{repo?.language}}"  *ngFor='let repo of repos'>
+            <div class="card" style="width: 20rem; min-height: 15rem; text-overflow: ellipsis;">
+                <div class="card-body">
+                    <h5 class="card-title">{{repo?.name}}</h5>
+                    <p class="card-text">{{repo?.description}}</p>
+                </div>
+                <div class="card-footer text-muted" style="font-size: 12px;">
+                    <span><i class="fas fa-code-branch"></i> {{repo?.forks_count}}</span>
+                    <span class="float-right">{{repo?.language}}</span>
+                </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+
+
