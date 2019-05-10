@@ -8,6 +8,6 @@ import { DataService } from './data.service';
 export class GitHubService extends DataService {
 
   constructor(http: HttpClient) {
-    super('http://api.github.com/users/pavelray/repo', http);
+    super('http://api.github.com/users/pavelray/repos', http);
   }
 }
