@@ -1,11 +1,10 @@
 <nav id="navbar-example" class="navbar sticky-top navbar-expand-md nav-color" >
   <a class="navbar-brand" href="#"><span><i class="fa fa-bullseye" aria-hidden="true"></i></span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarNav" aria-controls="navbarNav"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+
+  <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav navbar-center">
       <li class="nav-item">
         <a class="nav-link" href="#home">Home</a>

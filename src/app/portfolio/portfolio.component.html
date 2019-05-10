@@ -1,6 +1,6 @@
 <div class="row home section-separator" id="home">
-  <div class="container p-3">
-    <div class="row">
+  <div class="container ">
+    <div class="row p-5">
         <div class="col-md-6">
             <div class="row">
               <span class="span-hello">Hello I'm</span>
@@ -20,15 +20,15 @@
             </div>
             <div class="row social">
               <ul>
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-github"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.facebook.com/pavel.ray" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://github.com/pavelray" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/pavelray/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
               </ul>
             </div>
         </div>
         <div class="col-md-6">
             <div class="profile-image">
-               <img src="../../assets/profile_img.jpg" class="img-fluid">
+               <img src="../../assets/profile_img.jpg" class=" profile-image img-fluid">
             </div>
         </div>
     </div>
@@ -37,42 +37,42 @@
 </div>
 
 <div class="row about section-separator" id="about">
-  <div class="container p-3">
-    <div class="row">
+  <div class="container">
+    <div class="row p-5">
         <div class="col-md-6">
           <img src="../../assets/ab-img.png" class="img-fluid">
         </div>
-        <div class="col-md-6" style="padding-left:10px">
+        <div class="col-md-6 p-3">
           <span class="span-hello">About Me</span>
           <p class="about-me">{{aboutMe}}</p>
           <button class="btn btn-outline-warning btn-yellow">Download CV</button>
         </div>
     </div>
     <div class="row p-5">
-        <div class="col-md-12 text-center p-5">
+        <div class="col-md-12 text-center">
             <h2>What I do</h2>
         </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+        <div class="col-md-4 p-3">
+            <div class="card about-card" style="width: 18rem; height: 15rem;">
+                <div class="card-body ">
                   <h5 class="card-title">UI Design</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text about-card-body">{{uiDesign}}</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col-md-4 p-3">
+            <div class="card about-card" style="width: 18rem; height: 15rem;">
                 <div class="card-body">
                   <h5 class="card-title">Web Development</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text about-card-body">{{webDevelopment}}</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+        <div class="col-md-4 p-3">
+            <div class="card about-card" style="width: 18rem; height: 15rem;">
                 <div class="card-body">
                   <h5 class="card-title">App Development</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text about-card-body">{{appDevelopment}}</p>
                 </div>
             </div>
         </div>
@@ -91,21 +91,65 @@
   </div>
 </div>
 
-<div class="row experience section-separator" id="experience" style="height: 500px;">
-  <div class="container p-3">
-    <div class="row">
-      <div class="col-md-6">
-        <h2 >Education</h2>
+<div class="row experience section-separator" id="experience">
+  <div class="container">
+    <div class="row p-5">
+      <div class="col-md-6" >
+        <h2>Education</h2>
+        <div class="row p-3">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Master Of Computer Application (MCA)</h5>
+              <p class="card-text">Javapur University, West Bengal, India</p>
+              <p class="card-text">2010-2013</p>
+            </div>
+          </div>
+        </div>
+        <div class="row p-3 ">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Bachelor Of Computer Application (BCA)</h5>
+              <p class="card-text">West Bengal University of Technology, West Bengal, India</p>
+              <p class="card-text">2007-2010</p>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <div class="col-md-6">
         <h2>Work Experience</h2>
+        <div class="row p-3">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Lowe's Services India Pvt. Ltd.</h5>
+              <p class="card-text">Software Engineer</p>
+              <p class="card-text">Bangalore, India</p>
+              <p class="card-text">2017-Present</p>
+            </div>
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title">Mcube Investment Technology Pvt. Ltd.</h5>
+              <p class="card-text">Software Engineer</p>
+              <p class="card-text">Bangalore, India</p>
+              <p class="card-text">2014-2017</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-3">
+      <div class="col-md-12 text-center">
+          <h1>Recent Portfolio</h1>
       </div>
     </div>
   </div>
 </div>
 
 <div class="row contact section-separator" id="contact">
-  <div class="container p-3">
+  <div class="container">
     <div class="text-center">
         <h2>Contact Me</h2>
     </div>
@@ -135,7 +179,7 @@
           </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row p-5">
       <div class="col-md-6">
         <form>
           <div class="form-group">

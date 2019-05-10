@@ -14,6 +14,15 @@
     background-color:#5DA2D5;
 }
 
+.about-card{
+    background-color:#0bceaf;
+    
+}
+
+.about-card-body{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
 
 .btn-yellow{
   color:black;
@@ -80,7 +89,7 @@
 
 .profile-image{
     border: 20px solid;
-    border-color:  #0bceaf;
+    border-color:  #F3D250;
     margin: 0 auto;
     border-radius: 50%;
 }
