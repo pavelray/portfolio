@@ -12,9 +12,9 @@
 <div class="container">
     <div class="row">
         <div class=" column col-md-4 p-3 {{repo?.language}}"  *ngFor='let repo of repos'>
-            <div class="card" style="width: 20rem; min-height: 15rem; text-overflow: ellipsis;">
+            <div class="card port-card">
                 <div class="card-body">
-                    <h5 class="card-title">{{repo?.name}}</h5>
+                    <h5 class="card-title"><a href="{{repo.html_url}}" target="_blank">{{repo?.name}}</a></h5>
                     <p class="card-text">{{repo?.description}}</p>
                 </div>
                 <div class="card-footer text-muted" style="font-size: 12px;">

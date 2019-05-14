@@ -16,6 +16,7 @@ export class GitHubRepoComponent implements OnInit {
   ngOnInit() {
     this.service.getAll().subscribe(repos => {
       this.repos = repos;
+      console.log(this.repos);
       this.setSelected(1, 'all');
     });
   }

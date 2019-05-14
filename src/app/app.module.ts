@@ -21,7 +21,7 @@ import { GitHubRepoComponent } from './git-hub-repo/git-hub-repo.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [DataService, GitHubService],
+  providers: [GitHubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
