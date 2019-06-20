@@ -19,11 +19,17 @@
 
 .powered-by
 {
-  font-size: 35px !important;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .powered-by ul{
   margin-left: -50px;
+  font-size: 35px !important;
 }
 
 .powered-by ul>li{

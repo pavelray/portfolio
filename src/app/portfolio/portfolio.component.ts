@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioComponent implements OnInit {
 
   name = 'Pavel Ray';
-  role = 'Software Engineer';
+  role = 'Passionate';
   email = 'pavelray@gmail.com';
   contact = '8660677881';
   address = 'Bangalore, India';
