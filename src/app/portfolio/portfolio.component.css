@@ -168,4 +168,22 @@
     background-color:#ffccd4;
 }
 
+.span-role{
+    color: blueviolet;
+}
+.span-role::before {
+    content: 'passionate';
+    animation: animate infinite 8s;
+}
 
+@keyframes animate{
+    0%{
+        content: 'passionate';
+    }
+    25%{
+        content: 'self-taught';
+    }
+    50%{
+        content: 'committed';
+    }   
+}
