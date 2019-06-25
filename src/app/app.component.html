@@ -1,5 +1,5 @@
-<nav id="navbar-example" class="navbar sticky-top navbar-expand-md nav-color" >
-  <a class="navbar-brand" href="#"><span><i class="fab fa-empire"></i></span></a>
+<nav id="navbar-example" class="navbar sticky-top navbar-expand-md nav-color nav-animate" >
+  <a class="navbar-brand" href="#"><span><img src="../../assets/brand-logo.png" class="brand-logo img-fluid" ></span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
       <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,13 +7,10 @@
   <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav navbar-center">
       <li class="nav-item">
-        <a class="nav-link" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
@@ -28,13 +25,15 @@
   <div class="container p-5">
     <div class="powered-by">
         <label>Developed Using</label>
-        <ul>
-          <li><i class="fab fa-bootstrap" style="color: blue" title="Bootstrap"></i></li>
-          <li><i class="fab fa-angular" style="color: red" title="Angular"></i></li>
-          <li><i class="fab fa-html5" style="color:orangered" title="HTML5"></i></li>
-          <li><i class="fab fa-css3-alt" style="color: rgb(31, 149, 196)" title="CSS3"></i></li>
-        </ul>
-        <label>COPYRIGHT@{{getYear()}},PAVEL RAY</label>
+        <label>
+          <span class="p-3"><i class="fab fa-bootstrap" style="color: blue" title="Bootstrap"></i></span>
+          <span class="p-3"><i class="fab fa-angular" style="color: red" title="Angular"></i></span>
+          <span class="p-3"><i class="fab fa-html5" style="color:orangered" title="HTML5"></i></span>
+          <span class="p-3"><i class="fab fa-css3-alt" style="color: rgb(31, 149, 196)" title="CSS3"></i></span>
+        </label>
+
+        <label>COPYRIGHT@{{getYear()}}</label>
+        <span><img src="../../assets/brand-logo.png" class="brand-logo-large img-fluid" ></span>
     </div>
   </div>
 </footer>
