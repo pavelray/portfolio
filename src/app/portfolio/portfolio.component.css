@@ -231,6 +231,10 @@
 
 }
 
+.h-center{
+  text-align: center;
+}
+
 @keyframes animate{
     30%{
         content: 'enthusiastic';
