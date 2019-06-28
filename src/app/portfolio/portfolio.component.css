@@ -16,7 +16,7 @@
 
 .about-card{
     background-color:#0bceaf;
-    
+
 }
 
 .about-card-body{
@@ -169,21 +169,31 @@
 }
 
 .span-role{
-    color: blueviolet;
+    color: #fff;
+    background-color: #0bceaf;
+    padding-left: 13px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    clip-path: polygon(0 0, 91% 0, 100% 100%, 9% 100%);
+    font-size: 20px;
+    width: 100vh;
 }
+
 .span-role::before {
     content: 'passionate';
-    animation: animate infinite 8s;
+    animation: animate infinite 4s;
+    animation-timing-function: ease-out;
+
 }
 
 @keyframes animate{
-    0%{
-        content: 'passionate';
-    }
-    25%{
+    30%{
         content: 'self-taught';
     }
-    50%{
+    66%{
         content: 'committed';
-    }   
+    }
 }
+
+
